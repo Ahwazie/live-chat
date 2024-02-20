@@ -40,7 +40,8 @@ const SendMessage = () => {
           value={value} 
           onChange={e => setValue(e.target.value)}
           className="input w-full focus:outline-none bg-gray-100 rounded-r-none" 
-          type="text" 
+          type="text"
+          placeholder="Type a message..."
         />
         <button type="submit"
           className="w-auto bg-gray-500 text-white rounded-r-lg px-5 text-sm"
